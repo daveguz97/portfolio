@@ -1,0 +1,88 @@
+@import './variables.scss';
+
+.header {
+    p, a {
+        color: $secondary-gray-color;
+        margin: .3rem 0;
+    }
+    .title {
+        margin: 0;
+        line-height: 1.15;
+        font-size: 2.5rem;
+        color: $primary-gray-color;
+    }
+
+    .cardWrapper {
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .textContent {
+        display: flex;
+        height: 100%;
+        width: 50%;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 1.5rem;
+    }
+
+    img {
+        max-width: 150px;
+        border-radius: 10px;
+    }
+
+    .title,
+    .description {
+        text-align: center;
+    }
+
+    .socialLinks {
+        display: flex;
+        min-height: 10vh;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        color: $primary-gray-color;
+    }
+}
+
+// Small Laptop
+@media screen and (max-width: 1024px) {
+    .header {
+        img {
+            max-width: 60%;
+            margin: 2rem 0;
+        }
+
+        .cardWrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .textContent {
+            width: 80%;
+            align-items: center;
+
+            p {
+                margin-top: 1rem;
+            }
+        
+        p:last-child {
+            align-self: flex-start;
+        }
+        }
+
+
+        
+
+        .socialLinks {
+            
+            p {
+                margin: 1rem .5rem;
+                font-size: .9rem;
+            }
+        }
+    }
+}
