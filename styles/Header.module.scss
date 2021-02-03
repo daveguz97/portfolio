@@ -1,15 +1,10 @@
 @import './variables.scss';
 
 .header {
-    p, a {
-        color: $secondary-gray-color;
-        margin: .3rem 0;
-    }
     .title {
         margin: 0;
         line-height: 1.15;
         font-size: 2.5rem;
-        color: $primary-gray-color;
     }
 
     .cardWrapper {
@@ -33,11 +28,6 @@
         border-radius: 10px;
     }
 
-    .title,
-    .description {
-        text-align: center;
-    }
-
     .socialLinks {
         display: flex;
         min-height: 10vh;
@@ -52,7 +42,7 @@
 @media screen and (max-width: 1024px) {
     .header {
         img {
-            max-width: 60%;
+            max-width: 50%;
             margin: 2rem 0;
         }
 
@@ -64,7 +54,7 @@
         .textContent {
             width: 80%;
             align-items: center;
-
+            text-align: center;
             p {
                 margin-top: 1rem;
             }

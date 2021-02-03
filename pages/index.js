@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import styles from '../styles/Layout.module.scss';
+import Skills from '../components/Skills';
 
 export default function Home() {
     return (
@@ -8,6 +8,7 @@ export default function Home() {
                 <title>David Guzman</title>
                 <link rel='icon' href='/favicon.ico' />
             </Head>
+            <Skills />
         </>
     );
 }

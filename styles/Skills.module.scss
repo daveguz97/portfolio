@@ -1,0 +1,67 @@
+@import 'variables';
+
+.skills {
+    width: 100%;
+    display: flex;
+
+    .skill {
+        margin: 1rem 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .progressBar {
+        background-color: $primary-gray-color;
+        width: 250px;
+        max-height: 10px;
+        margin-left: 1rem;
+        border-radius: 5px;
+
+        .completed {
+            height: 100%;
+            background-color: $completed-color;
+            border-radius: 5px;
+        }
+    }
+
+    .htmlCss {
+        .completed {
+            width: 99%;
+        }
+    }
+
+    .javascript {
+        .completed {
+            width: 95%;
+        }
+    }
+
+    .react {
+        .completed {
+            width: 90%;
+        }
+    }
+
+    .bootstrap {
+        .completed {
+            width: 95%;
+        }
+    }
+
+    .tailwind {
+        .completed {
+            width: 75%;
+        }
+    }
+
+    .materialize {
+        .completed {
+            width: 50%;
+        }
+    }
+    .sass {
+        .completed {
+            width: 90%;
+        }
+    }
+}

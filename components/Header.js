@@ -8,10 +8,7 @@ const Header = () => {
         <header className={headerStyle.header}>
             <div className={styles.card}>
                 <div className={headerStyle.cardWrapper}>
-                    <img
-                        src='/me.jpg'
-                        alt='A picture of me'
-                    />
+                    <img src='/me.jpg' alt='A picture of me' />
                     <div className={headerStyle.textContent}>
                         <h3 className={headerStyle.title}>David Guzman</h3>
                         <p className={headerStyle.description}>
