@@ -68,6 +68,21 @@
             width: 30%;
         }
     }
+    .async {
+        .completed {
+            width: 99%;
+        }
+    }
+    .fetch {
+        .completed {
+            width: 99%;
+        }
+    }
+    .axios {
+        .completed {
+            width: 99%;
+        }
+    }
 
     // back-end tech
     .node {
@@ -118,6 +133,58 @@
     .postgres {
         .completed {
             width: 50%;
+        }
+    }
+
+    // Other Tech
+    .vscode {
+        .completed {
+            width: 99%;
+        }
+    }
+    .git {
+        .completed {
+            width: 95%;
+        }
+    }
+    .gimp {
+        .completed {
+            width: 50%;
+        }
+    }
+    .jira, .trello, .clickUp {
+        .completed {
+            width: 90%;
+        }
+    }
+    .scrum {
+        .completed {
+            width: 95%;
+        }
+    }
+    .solidity {
+        .completed {
+            width: 50%;
+        }
+    }
+    .blender {
+        .completed {
+            width: 90%;
+        }
+    }
+    .csharp {
+        .completed {
+            width: 30%;
+        }
+    }
+    .cplusplus {
+        .completed {
+            width: 25%;
+        }
+    }
+    .java {
+        .completed {
+            width: 60%;
         }
     }
 }

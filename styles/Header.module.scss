@@ -71,8 +71,12 @@
 
         .socialLinks {
             p {
-                margin: 1rem 0.5rem;
+                margin: .5rem 0.5rem;
                 font-size: 0.9rem;
+
+                &:first-child {
+                    margin-top: 1rem;
+                }
             }
         }
     }

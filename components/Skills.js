@@ -61,20 +61,32 @@ const Skills = () => {
                             <div className={skillStyles.completed}></div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div className={`${styles.card} ${skillStyles.skillsCard}`}>
-                <div className={skillStyles.textContent}>
-                    <h3>Back End</h3>
                     <div
-                        className={`${skillStyles.node} ${skillStyles.skill}`}>
-                        <h6>Node/Express</h6>
+                        className={`${skillStyles.async} ${skillStyles.skill}`}>
+                        <h6>Async/Await</h6>
                         <div className={skillStyles.progressBar}>
                             <div className={skillStyles.completed}></div>
                         </div>
                     </div>
                     <div
-                        className={`${skillStyles.aws} ${skillStyles.skill}`}>
+                        className={`${skillStyles.axios} ${skillStyles.skill}`}>
+                        <h6>Axios</h6>
+                        <div className={skillStyles.progressBar}>
+                            <div className={skillStyles.completed}></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className={`${styles.card} ${skillStyles.skillsCard}`}>
+                <div className={skillStyles.textContent}>
+                    <h3>Back End</h3>
+                    <div className={`${skillStyles.node} ${skillStyles.skill}`}>
+                        <h6>Node/Express</h6>
+                        <div className={skillStyles.progressBar}>
+                            <div className={skillStyles.completed}></div>
+                        </div>
+                    </div>
+                    <div className={`${skillStyles.aws} ${skillStyles.skill}`}>
                         <h6>AWS</h6>
                         <div className={skillStyles.progressBar}>
                             <div className={skillStyles.completed}></div>
@@ -94,8 +106,7 @@ const Skills = () => {
                             <div className={skillStyles.completed}></div>
                         </div>
                     </div>
-                    <div
-                        className={`${skillStyles.sql} ${skillStyles.skill}`}>
+                    <div className={`${skillStyles.sql} ${skillStyles.skill}`}>
                         <h6>SQL</h6>
                         <div className={skillStyles.progressBar}>
                             <div className={skillStyles.completed}></div>
@@ -115,8 +126,7 @@ const Skills = () => {
                             <div className={skillStyles.completed}></div>
                         </div>
                     </div>
-                    <div
-                        className={`${skillStyles.rest} ${skillStyles.skill}`}>
+                    <div className={`${skillStyles.rest} ${skillStyles.skill}`}>
                         <h6>REST API</h6>
                         <div className={skillStyles.progressBar}>
                             <div className={skillStyles.completed}></div>
@@ -141,6 +151,90 @@ const Skills = () => {
             <div className={`${styles.card} ${skillStyles.skillsCard}`}>
                 <div className={skillStyles.textContent}>
                     <h3>Other Skills</h3>
+                    <div
+                        className={`${skillStyles.vscode} ${skillStyles.skill}`}>
+                        <h6>VSCode</h6>
+                        <div className={skillStyles.progressBar}>
+                            <div className={skillStyles.completed}></div>
+                        </div>
+                    </div>
+                    <div
+                        className={`${skillStyles.git} ${skillStyles.skill}`}>
+                        <h6>Git</h6>
+                        <div className={skillStyles.progressBar}>
+                            <div className={skillStyles.completed}></div>
+                        </div>
+                    </div>
+                    <div
+                        className={`${skillStyles.gimp} ${skillStyles.skill}`}>
+                        <h6>Gimp</h6>
+                        <div className={skillStyles.progressBar}>
+                            <div className={skillStyles.completed}></div>
+                        </div>
+                    </div>
+                    <div
+                        className={`${skillStyles.jira} ${skillStyles.skill}`}>
+                        <h6>Jira</h6>
+                        <div className={skillStyles.progressBar}>
+                            <div className={skillStyles.completed}></div>
+                        </div>
+                    </div>
+                    <div
+                        className={`${skillStyles.trello} ${skillStyles.skill}`}>
+                        <h6>Trello</h6>
+                        <div className={skillStyles.progressBar}>
+                            <div className={skillStyles.completed}></div>
+                        </div>
+                    </div>
+                    <div
+                        className={`${skillStyles.clickUp} ${skillStyles.skill}`}>
+                        <h6>ClickUp</h6>
+                        <div className={skillStyles.progressBar}>
+                            <div className={skillStyles.completed}></div>
+                        </div>
+                    </div>
+                    <div
+                        className={`${skillStyles.scrum} ${skillStyles.skill}`}>
+                        <h6>Agile/Scrum</h6>
+                        <div className={skillStyles.progressBar}>
+                            <div className={skillStyles.completed}></div>
+                        </div>
+                    </div>
+                    <div
+                        className={`${skillStyles.solidity} ${skillStyles.skill}`}>
+                        <h6>Solidity</h6>
+                        <div className={skillStyles.progressBar}>
+                            <div className={skillStyles.completed}></div>
+                        </div>
+                    </div>
+                    <div
+                        className={`${skillStyles.blender} ${skillStyles.skill}`}>
+                        <h6>Blender</h6>
+                        <div className={skillStyles.progressBar}>
+                            <div className={skillStyles.completed}></div>
+                        </div>
+                    </div>
+                    <div
+                        className={`${skillStyles.csharp} ${skillStyles.skill}`}>
+                        <h6>C#</h6>
+                        <div className={skillStyles.progressBar}>
+                            <div className={skillStyles.completed}></div>
+                        </div>
+                    </div>
+                    <div
+                        className={`${skillStyles.cplusplus} ${skillStyles.skill}`}>
+                        <h6>C++</h6>
+                        <div className={skillStyles.progressBar}>
+                            <div className={skillStyles.completed}></div>
+                        </div>
+                    </div>
+                    <div
+                        className={`${skillStyles.java} ${skillStyles.skill}`}>
+                        <h6>Java</h6>
+                        <div className={skillStyles.progressBar}>
+                            <div className={skillStyles.completed}></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

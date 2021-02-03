@@ -1,6 +1,5 @@
 import headerStyle from '../styles/Header.module.scss';
-import Email from '@material-ui/icons/Email';
-import Call from '@material-ui/icons/Call';
+import { Call, Email, GitHub, Twitter, LinkedIn } from '@material-ui/icons/';
 import styles from '../styles/Layout.module.scss';
 
 const Header = () => {
@@ -22,7 +21,12 @@ const Header = () => {
                             Father of fraternal twins, intern at two startups,
                             and a traveler.
                         </p>
-                        <p>View my resume <a href="/main-resume.pdf" target="_blank">here</a></p>
+                        <p>
+                            View my resume{' '}
+                            <a href='/main-resume.pdf' target='_blank'>
+                                here
+                            </a>
+                        </p>
                     </div>
                     <div className={headerStyle.socialLinks}>
                         <p>
@@ -35,6 +39,34 @@ const Header = () => {
                         <p>
                             <a href='tel:+1-980-621-2891'>
                                 <Call /> &nbsp;+1 (980) 621-2891
+                            </a>
+                        </p>
+
+                        <br />
+
+                        <p>
+                            <a
+                                href='https://github.com/daveguz97'
+                                target='_blank'>
+                                <GitHub /> @daveguz97
+                            </a>
+                        </p>
+
+                        <p>
+                            <a
+                                href='https://twitter.com/daveguz97'
+                                target='_blank'>
+                                <Twitter />
+                                @daveguz97
+                            </a>
+                        </p>
+
+                        <p>
+                            <a
+                                href='https://linkedin.com/in/daveguz97'
+                                target='_blank'>
+                                <LinkedIn />
+                                @daveguz97
                             </a>
                         </p>
                     </div>
