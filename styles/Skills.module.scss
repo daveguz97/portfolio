@@ -24,6 +24,7 @@
         }
     }
 
+    // Front-end Tech
     .htmlCss {
         .completed {
             width: 99%;
@@ -47,13 +48,11 @@
             width: 95%;
         }
     }
-
     .tailwind {
         .completed {
             width: 75%;
         }
     }
-
     .materialize {
         .completed {
             width: 50%;
@@ -62,6 +61,63 @@
     .sass {
         .completed {
             width: 90%;
+        }
+    }
+    .gsap {
+        .completed {
+            width: 30%;
+        }
+    }
+
+    // back-end tech
+    .node {
+        .completed {
+            width: 80%;
+        }
+    }
+    .aws {
+        .completed {
+            width: 80%;
+        }
+    }
+    .firebase {
+        .completed {
+            width: 80%;
+        }
+    }
+    .multer {
+        .completed {
+            width: 95%;
+        }
+    }
+    .sql {
+        .completed {
+            width: 75%;
+        }
+    }
+    .python {
+        .completed {
+            width: 95%;
+        }
+    }
+    .django {
+        .completed {
+            width: 95%;
+        }
+    }
+    .rest {
+        .completed {
+            width: 99%;
+        }
+    }
+    .postman {
+        .completed {
+            width: 99%;
+        }
+    }
+    .postgres {
+        .completed {
+            width: 50%;
         }
     }
 }
