@@ -10,7 +10,8 @@ const Header = () => {
                     <img src='/images/me.jpg' alt='A picture of me' />
                     <div className={headerStyle.textContent}>
                         <h3 className={headerStyle.title}>David Guzman</h3>
-                        <p className={headerStyle.description}>
+                        <p className={headerStyle.description} style={{fontSize: '1rem',
+                        fontWeight: 300}}>
                             Front-End Web Developer
                         </p>
                         <p>

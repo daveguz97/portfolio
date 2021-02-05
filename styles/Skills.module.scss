@@ -1,11 +1,11 @@
 @import 'variables';
 
 .skills {
-    width: 100%;
+    min-width: 80vw;
     display: flex;
 
     .skillCard {
-        width: 33%;
+        width: 100%;
     }
 
     .skill {
