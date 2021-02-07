@@ -1,0 +1,8 @@
+.projectList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+
+    .tags {
+        margin-bottom: 0.5rem;
+    }
+}

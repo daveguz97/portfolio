@@ -49,7 +49,7 @@ const Experience = () => {
                             </p>
 
                             <p>
-                                We are a working on a music website to help
+                                We are a working on a music website to make it easy for
                                 musicians find venues. We are using HTML/CSS,
                                 JavaScript, Node.js, Express.js, Tailwind.css,
                                 and Firebase.
