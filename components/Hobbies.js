@@ -5,6 +5,7 @@ const Hobbies = () => {
     return (
         <section className={hobbyStyle.hobbies}>
             <div className={styles.card}>
+            <h3>Hobbies</h3>
                 <div className={hobbyStyle.wrapper}>
                     <div className={hobbyStyle.hobbyGroup}>
                         <img src='./images/gaming.jpg' alt='Gaming' />

@@ -1,0 +1,29 @@
+.experienceStyle {
+    .experienceGroup {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        margin: 1.5rem 0;
+
+        img {
+            width: 100px;
+        }
+
+        .description {
+            font-size: 1rem;
+            margin: .3rem 0;
+            text-transform: uppercase;
+            font-weight: 300;
+
+            small {
+                font-size: .8rem;
+            }
+        }
+
+        div:last-child {
+            width: 50%;
+        }
+    }
+}

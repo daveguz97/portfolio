@@ -1,6 +1,5 @@
 import Head from 'next/head';
-import Skills from '../components/Skills';
-import Hobbies from '../components/Hobbies';
+import Main from '../components/Main'
 
 export default function Home() {
     return (
@@ -9,8 +8,7 @@ export default function Home() {
                 <title>David Guzman</title>
                 <link rel='icon' href='/favicon.ico' />
             </Head>
-            <Skills />
-            <Hobbies />
+            <Main />
         </>
     );
 }

@@ -1,6 +1,13 @@
 .hobbies {
     width: 90%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h3 {
+        text-align: center;
+        margin: 1rem 0;
+    }
     .wrapper {
         width: 75%;
         margin: 0 auto;
@@ -10,6 +17,10 @@
 
         .hobbyGroup {
             margin: 0 .5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1rem 0;
             h3 {
                 text-align: center;
             }
@@ -17,7 +28,7 @@
 
         img {
             max-width: 800px;
-            margin: 1.5rem;
+            height: 200px;
         }
     }
 }
