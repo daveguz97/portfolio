@@ -11,21 +11,21 @@ const Projects = () => {
     };
 
     const responsiveBtn = () => {
-        setFilteredTags(tags.filter((tag) => tag === 'responsive').join(''));
+        setFilteredTags(tags.filter((tag) => tag === 'responsive'));
     };
 
     const frontEndBtn = () => {
-        setFilteredTags(tags.filter((tag) => tag === 'front-end').join(''));
+        setFilteredTags(tags.filter((tag) => tag === 'front-end'));
     };
 
     const backEndBtn = () => {
-        setFilteredTags(tags.filter((tag) => tag === 'back-end').join(''));
+        setFilteredTags(tags.filter((tag) => tag === 'back-end'));
     };
 
     return (
         <section className={projectStyles.projectSection}>
             <div className={styles.card}>
-                <h3>Projects (6)</h3>
+                <h3>Projects (7)</h3>
                 <button onClick={allBtn} className={styles.btn}>
                     All
                 </button>

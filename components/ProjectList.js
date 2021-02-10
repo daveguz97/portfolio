@@ -95,6 +95,39 @@ const ProjectList = ({ tags }) => {
             </div>
             <div className={`${styles.card} responsive`}>
                 <div className={projectListStyle.cardImgDiv}>
+                    <img
+                        src='/images/projects/wall2wall.png'
+                        alt='Wall2Wall Productions'
+                    />
+                </div>
+                <p className={projectListStyle.tags}>
+                    #HTML #CSS #SASS #JavaScript #Gsap #responsive
+                </p>
+                <p className={projectListStyle.description}>
+                    Here is a webpage I made for a videographer using HTML,
+                    SASS, JavaScript, and Gsap
+                </p>
+                <div className='btn-group'>
+                    <a
+                        href='https://wall2wallproductions.netlify.app/'
+                        target='_blank'>
+                        <button
+                            className={`${styles.btn} ${projectListStyle.btnDanger}`}>
+                            Demo
+                        </button>
+                    </a>
+                    <a
+                        href='https://github.com/daveguz97/wall2wallproductions'
+                        target='_blank'>
+                        <button
+                            className={`${styles.btn} ${projectListStyle.btnPrimary}`}>
+                            Code
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div className={`${styles.card} responsive`}>
+                <div className={projectListStyle.cardImgDiv}>
                     <img src='/images/projects/checkout.png' alt='Checkout' />
                 </div>
                 <p className={projectListStyle.tags}>
