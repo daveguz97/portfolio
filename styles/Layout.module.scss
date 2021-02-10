@@ -19,7 +19,7 @@
     border-radius: 10px;
     background: #fff;
     border: 1px solid #000;
-    margin: 0 1rem;
+    margin: 1rem;
     transition: all 0.3s ease-in-out;
 
     &:hover,
@@ -30,8 +30,7 @@
     }
 
     &:focus {
-      border: none;
-      outline: none;
+        outline: none;
     }
 }
 

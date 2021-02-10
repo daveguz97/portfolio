@@ -1,8 +1,58 @@
+@import 'variables';
 .projectList {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 
     .tags {
         margin-bottom: 0.5rem;
+    }
+
+    .cardImgDiv {
+        margin: 1rem 0;
+        img {
+            width: 100%;
+        }
+    }
+
+    a {
+        color: $primary-btn-color;
+        transition: text-decoration 0.3s ease-in-out;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .btnDanger,
+    .btnPrimary,
+    .btnLocked {
+        color: #fff;
+    }
+
+    .btnLocked {
+        background-color: darken($primary-gray-color, 15%);
+        .lock {
+            position: relative;
+            color: rgba(226, 212, 15, 0.883);
+            font-size: 1rem;
+            left: 0;
+            bottom: 0;
+        }
+    }
+
+    .btnDanger {
+        background-color: #de3a33;
+
+        &:hover {
+            background-color: darken(#de3a33, 10%);
+        }
+    }
+
+    .btnPrimary {
+        background-color: $primary-btn-color;
+
+        &:hover {
+            background-color: lighten($primary-btn-color, 5%);
+        }
     }
 }

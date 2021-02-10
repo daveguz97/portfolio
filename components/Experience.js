@@ -4,7 +4,7 @@ import styles from '../styles/Layout.module.scss';
 
 const Experience = () => {
     return (
-        <section className={experienceStyles.experienceStyle}>
+        <section className={experienceStyles.experienceSection}>
             <div className={styles.card}>
                 <div className={experienceStyles.wrapper}>
                     <h3>Experience</h3>
@@ -50,7 +50,7 @@ const Experience = () => {
 
                             <p>
                                 We are a working on a music website to make it easy for
-                                musicians find venues. We are using HTML/CSS,
+                                musicians to find venues. We are using HTML/CSS,
                                 JavaScript, Node.js, Express.js, Tailwind.css,
                                 and Firebase.
                             </p>
