@@ -25,7 +25,7 @@ const Projects = () => {
     return (
         <section className={projectStyles.projectSection}>
             <div className={styles.card}>
-                <h3>Projects (7)</h3>
+                <h3>Projects (8)</h3>
                 <button onClick={allBtn} className={styles.btn}>
                     All
                 </button>

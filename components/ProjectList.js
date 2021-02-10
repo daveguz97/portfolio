@@ -63,6 +63,39 @@ const ProjectList = ({ tags }) => {
             </div>
             <div className={`${styles.card} responsive`}>
                 <div className={projectListStyle.cardImgDiv}>
+                    <img
+                        src='/images/projects/edie-homepage.png'
+                        alt='Edie Homepage'
+                    />
+                </div>
+                <p className={projectListStyle.tags}>
+                    #HTML #CSS #SASS #responsive
+                </p>
+                <p className={projectListStyle.description}>
+                    This is a mockup page for a company from{' '}
+                    <a href='http://devchallenges.io' target='_blank'>
+                        devchallenges.io
+                    </a>
+                </p>
+                <div className='btn-group'>
+                    <a href='https://edie-dg.netlify.app/' target='_blank'>
+                        <button
+                            className={`${styles.btn} ${projectListStyle.btnDanger}`}>
+                            Demo
+                        </button>
+                    </a>
+                    <a
+                        href='https://github.com/daveguz97/edie-homepage'
+                        target='_blank'>
+                        <button
+                            className={`${styles.btn} ${projectListStyle.btnPrimary}`}>
+                            Code
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div className={`${styles.card} responsive`}>
+                <div className={projectListStyle.cardImgDiv}>
                     <img src='/images/projects/404.png' alt='404 Not found' />
                 </div>
                 <p className={projectListStyle.tags}>
