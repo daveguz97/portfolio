@@ -18,9 +18,11 @@
     padding: 0.3rem 0.8rem;
     border-radius: 10px;
     background: #fff;
-    border: 1px solid #000;
+    border: none;
     margin: 1rem;
     transition: all 0.3s ease-in-out;
+    -webkit-box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.9); 
+box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.5);
 
     &:hover,
     &:focus {
@@ -61,6 +63,8 @@
     border: 1px solid #eaeaea;
     border-radius: 12px;
     background: #fff;
+    -webkit-box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.5);
 }
 
 .card h3 {
