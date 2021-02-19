@@ -24,7 +24,7 @@ const Header = () => {
                         </p>
                         <p>
                             View my resume{' '}
-                            <a href='/main-resume.pdf' target='_blank'>
+                            <a href="/main-resume.pdf" target='_blank'>
                                 here
                             </a>
                         </p>
