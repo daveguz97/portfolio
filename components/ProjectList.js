@@ -6,7 +6,8 @@ import styles from '../styles/Layout.module.scss';
 const ProjectList = ({ tags }) => {
     return (
         <div className={projectListStyle.projectList}>
-            <div className={`${styles.card} front-end`}>
+            <div
+                className={`${styles.card} ${projectListStyle.card} front-end`}>
                 <div className={projectListStyle.cardImgDiv}>
                     <img src='/images/projects/knowrona.png' alt='Knowrona' />
                 </div>
@@ -17,7 +18,7 @@ const ProjectList = ({ tags }) => {
                     Here is a cool react pop quiz game I worked on with a team
                     of developers and designers.
                 </p>
-                <div className='btn-group'>
+                <div className={projectListStyle.btnGroup}>
                     <a href='https://www.knowrona.net/home' target='_blank'>
                         <button
                             className={`${styles.btn} ${projectListStyle.btnDanger}`}>
@@ -34,7 +35,7 @@ const ProjectList = ({ tags }) => {
                     </a>
                 </div>
             </div>
-            <div className={`${styles.card} back-end`}>
+            <div className={`${styles.card} ${projectListStyle.card} back-end`}>
                 <div className={projectListStyle.cardImgDiv}>
                     <img src='/images/projects/pinterest.png' alt='Pinterest' />
                 </div>
@@ -46,7 +47,7 @@ const ProjectList = ({ tags }) => {
                     in only 2 weeks! You can add a board, a pin, dark mode,
                     comment, like, user authentication and a lot more!
                 </p>
-                <div className='btn-group'>
+                <div className={projectListStyle.btnGroup}>
                     <button
                         className={`${styles.btn} ${projectListStyle.btnLocked}`}>
                         <LockIcon className={projectListStyle.lock} /> Demo
@@ -61,7 +62,8 @@ const ProjectList = ({ tags }) => {
                     </a>
                 </div>
             </div>
-            <div className={`${styles.card} responsive`}>
+            <div
+                className={`${styles.card} ${projectListStyle.card} responsive`}>
                 <div className={projectListStyle.cardImgDiv}>
                     <img
                         src='/images/projects/edie-homepage.png'
@@ -77,7 +79,7 @@ const ProjectList = ({ tags }) => {
                         devchallenges.io
                     </a>
                 </p>
-                <div className='btn-group'>
+                <div className={projectListStyle.btnGroup}>
                     <a href='https://edie-dg.netlify.app/' target='_blank'>
                         <button
                             className={`${styles.btn} ${projectListStyle.btnDanger}`}>
@@ -94,7 +96,8 @@ const ProjectList = ({ tags }) => {
                     </a>
                 </div>
             </div>
-            <div className={`${styles.card} responsive`}>
+            <div
+                className={`${styles.card} ${projectListStyle.card} responsive`}>
                 <div className={projectListStyle.cardImgDiv}>
                     <img src='/images/projects/404.png' alt='404 Not found' />
                 </div>
@@ -107,7 +110,7 @@ const ProjectList = ({ tags }) => {
                         devchallenges.io
                     </a>
                 </p>
-                <div className='btn-group'>
+                <div className={projectListStyle.btnGroup}>
                     <a
                         href='https://scarecrow-404.netlify.app/'
                         target='_blank'>
@@ -126,7 +129,8 @@ const ProjectList = ({ tags }) => {
                     </a>
                 </div>
             </div>
-            <div className={`${styles.card} responsive`}>
+            <div
+                className={`${styles.card} ${projectListStyle.card} responsive`}>
                 <div className={projectListStyle.cardImgDiv}>
                     <img
                         src='/images/projects/wall2wall.png'
@@ -140,7 +144,7 @@ const ProjectList = ({ tags }) => {
                     Here is a webpage I made for a videographer using HTML,
                     SASS, JavaScript, and Gsap
                 </p>
-                <div className='btn-group'>
+                <div className={projectListStyle.btnGroup}>
                     <a
                         href='https://wall2wallproductions.netlify.app/'
                         target='_blank'>
@@ -159,7 +163,8 @@ const ProjectList = ({ tags }) => {
                     </a>
                 </div>
             </div>
-            <div className={`${styles.card} responsive`}>
+            <div
+                className={`${styles.card} ${projectListStyle.card} responsive`}>
                 <div className={projectListStyle.cardImgDiv}>
                     <img src='/images/projects/checkout.png' alt='Checkout' />
                 </div>
@@ -172,7 +177,7 @@ const ProjectList = ({ tags }) => {
                         devchallenges.io
                     </a>
                 </p>
-                <div className='btn-group'>
+                <div className={projectListStyle.btnGroup}>
                     <a href='https://checkout-dg.netlify.app/' target='_blank'>
                         <button
                             className={`${styles.btn} ${projectListStyle.btnDanger}`}>
@@ -189,7 +194,8 @@ const ProjectList = ({ tags }) => {
                     </a>
                 </div>
             </div>
-            <div className={`${styles.card} responsive`}>
+            <div
+                className={`${styles.card} ${projectListStyle.card} responsive`}>
                 <div className={projectListStyle.cardImgDiv}>
                     <img
                         src='/images/projects/interior-consultant.png'
@@ -206,7 +212,7 @@ const ProjectList = ({ tags }) => {
                     </a>
                     . It also includes dark mode and light mode.
                 </p>
-                <div className='btn-group'>
+                <div className={projectListStyle.btnGroup}>
                     <a
                         href='https://my-interior-consultant.netlify.app/'
                         target='_blank'>
@@ -225,7 +231,8 @@ const ProjectList = ({ tags }) => {
                     </a>
                 </div>
             </div>
-            <div className={`${styles.card} responsive`}>
+            <div
+                className={`${styles.card} ${projectListStyle.card} responsive`}>
                 <div className={projectListStyle.cardImgDiv}>
                     <img src='/images/projects/recipe.png' alt='Recipe Page' />
                 </div>
@@ -238,7 +245,7 @@ const ProjectList = ({ tags }) => {
                         devchallenges.io
                     </a>
                 </p>
-                <div className='btn-group'>
+                <div className={projectListStyle.btnGroup}>
                     <a
                         href='https://cheesecake-recipe.netlify.app/'
                         target='_blank'>
@@ -262,19 +269,19 @@ const ProjectList = ({ tags }) => {
                     .responsive {
                         display: ${!tags.includes('responsive')
                             ? 'none'
-                            : 'block'};
+                            : 'flex'};
                     }
 
                     .front-end {
                         display: ${!tags.includes('front-end')
                             ? 'none'
-                            : 'block'};
+                            : 'flex'};
                     }
 
                     .back-end {
                         display: ${!tags.includes('back-end')
                             ? 'none'
-                            : 'block'};
+                            : 'flex'};
                     }
                 `}
             </style>

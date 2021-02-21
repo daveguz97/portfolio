@@ -2,12 +2,22 @@
 .projectList {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1.5rem;
 
     .tags {
         margin-bottom: 0.5rem;
     }
 
+    .card {
+        flex-direction: column;
+        max-width: 600px;
+        min-height: 650px;
+        margin: 0 auto;
+        position: relative;
+    }
+
     .cardImgDiv {
+        width: 100%;
         margin: 1rem 0;
         img {
             width: 100%;
@@ -23,13 +33,31 @@
         }
     }
 
+    .btnGroup {
+        width: 80%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        bottom: 0;
+
+    }
+
     .btnDanger,
     .btnPrimary,
     .btnLocked {
         color: #fff;
+        align-items: flex-end;
+        padding: .4rem 2rem;
+
+        &:active {
+            box-shadow: none;
+            bottom: .2em;
+        }
     }
 
     .btnLocked {
+        display: flex;
+        align-items: center;
         background-color: darken($primary-gray-color, 15%);
         .lock {
             position: relative;
