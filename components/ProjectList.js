@@ -43,9 +43,11 @@ const ProjectList = ({ tags }) => {
           authentication and a lot more!
         </p>
         <div className={projectListStyle.btnGroup}>
-          <button className={`${styles.btn} ${projectListStyle.btnDanger}`}>
-            Demo
-          </button>
+          <a href="https://boardom-killer.herokuapp.com">
+            <button className={`${styles.btn} ${projectListStyle.btnDanger}`}>
+              Demo
+            </button>
+          </a>
           <a href="https://github.com/sarahbeverton/capstone" target="_blank">
             <button className={`${styles.btn} ${projectListStyle.btnPrimary}`}>
               Code
