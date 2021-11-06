@@ -118,7 +118,7 @@ const ProjectList = ({ tags }) => {
           JavaScript, and Gsap
         </p>
         <div className={projectListStyle.btnGroup}>
-          <a href="https://wall2wallproductions.netlify.app/" target="_blank">
+          <a href="https://wall2wallproductions.herokuapp.com/" target="_blank">
             <button className={`${styles.btn} ${projectListStyle.btnDanger}`}>
               Demo
             </button>
